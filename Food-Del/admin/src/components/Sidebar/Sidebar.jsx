@@ -19,7 +19,7 @@ const Sidebar = () => {
           <img src={assets.order_icon} alt="" />
           <p>List Items</p>
         </NavLink>
-        <NavLink to='order' onClick={()=>setColor("Orders")} className={color==="Orders"?"sidebar-active":"sidebar-option"}>
+        <NavLink to='/orders' onClick={()=>setColor("Orders")} className={color==="Orders"?"sidebar-active":"sidebar-option"}>
           <img src={assets.order_icon} alt="" />
           <p>Orders</p>
         </NavLink>

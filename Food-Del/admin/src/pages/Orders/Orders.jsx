@@ -1,10 +1,13 @@
 import React from 'react'
 import './Orders.css'
+import { assets } from '../../assets/assets'
 
-const Order = () => {
+const Orders = () => {
   return (
-    <div>Order</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default Order
+export default Orders
