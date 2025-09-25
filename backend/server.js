@@ -28,7 +28,7 @@ app.use("/api/order", orderRouter)
 
 
 app.get("/",(req,res)=>{
-    res.send("API Working")
+    res.send("API Working perfectly")
 })
 
 app.listen(PORT,()=>{
